@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "coreessentials",
+  "version": "${version}",
+  "name": "CORECLIENT Essentials",
+  "description": "HUD, keystrokes and session tools shipped with CORECLIENT.",
+  "authors": ["CORECLIENT Project"],
+  "license": "GPL-3.0-only",
+  "icon": "assets/coreessentials/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.coreclient.coreessentials.CoreEssentialsClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.20.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
